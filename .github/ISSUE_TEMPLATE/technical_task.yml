@@ -1,0 +1,15 @@
+name: Technical Task
+description: Refactoring or other technical work
+title: "[Tech]: "
+labels: ["technical-task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: definition-of-done
+    attributes:
+      label: Definition of Done

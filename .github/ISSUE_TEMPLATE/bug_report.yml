@@ -1,0 +1,52 @@
+name: Bug Report
+description: Report a bug in the app
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Reproduction Steps
+      description: Step by step, how do you trigger this?
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected Behaviour
+  - type: textarea
+    id: actual-behaviour
+    attributes:
+      label: Actual Behaviour
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, device, app version, etc.
+  - type: textarea
+    id: possible-causes
+    attributes:
+      label: Possible Causes
+  - type: input
+    id: production-link
+    attributes:
+      label: Link to the page of the app in production
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+  - type: input
+    id: cms-bugreport-link
+    attributes:
+      label: Link to CMS Bugreport
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: Links to related issues in Urbo, Kassel, Bamberg, Soest, Wesel

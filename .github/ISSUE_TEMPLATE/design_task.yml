@@ -1,0 +1,22 @@
+name: Design Task
+description: Request design work
+title: "[Design]: "
+labels: ["design"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description/Requirements
+    validations:
+      required: true
+  - type: input
+    id: handoff
+    attributes:
+      label: Who to hand it to
+    validations:
+      required: true
+  - type: textarea
+    id: followup-task
+    attributes:
+      label: Followup Implementation Task
+      description: Link it here if this can be created automatically

@@ -1,0 +1,16 @@
+name: Epic
+description: Track a larger initiative made of several issues
+title: "[Epic]: "
+labels: ["epic"]
+body:
+  - type: textarea
+    id: child-tasks
+    attributes:
+      label: Child Tasks
+      description: Checklist of linked issues, e.g. "- [ ] #123"
+    validations:
+      required: true
+  - type: textarea
+    id: objective-scope
+    attributes:
+      label: Objective & Scope
