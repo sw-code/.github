@@ -1,7 +1,7 @@
 name: Epic
 description: Track a larger initiative made of several issues
 title: "[Epic]: "
-labels: ["epic"]
+type: Epic
 body:
   - type: textarea
     id: objective-scope

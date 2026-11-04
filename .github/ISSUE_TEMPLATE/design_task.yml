@@ -1,7 +1,7 @@
 name: Design Task
 description: Request design work
 title: "[Design]: "
-labels: ["design"]
+labels: ["ui/ux design"]
 body:
   - type: textarea
     id: description
