@@ -7,8 +7,6 @@ body:
     id: description
     attributes:
       label: Description
-    validations:
-      required: true
   - type: textarea
     id: definition-of-done
     attributes:

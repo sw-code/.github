@@ -7,16 +7,8 @@ body:
     id: description
     attributes:
       label: Description/Requirements
-    validations:
-      required: true
-  - type: input
+  - type: textarea
     id: handoff
     attributes:
-      label: Who to hand it to
-    validations:
-      required: true
-  - type: textarea
-    id: followup-task
-    attributes:
-      label: Followup Implementation Task
-      description: Link it here if this can be created automatically
+      label: Handoff
+      description: Who picks it up after the design, and the follow-up implementation task if there is one.
