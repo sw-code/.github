@@ -1,6 +1,5 @@
 name: Bug Report
 description: Report a bug in the app
-title: "[Bug]: "
 type: Bug
 body:
   - type: textarea

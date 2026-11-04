@@ -1,6 +1,5 @@
 name: Technical Task
 description: Refactoring or other technical work
-title: "[Tech]: "
 type: Refactoring
 body:
   - type: textarea

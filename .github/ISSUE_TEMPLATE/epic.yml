@@ -1,6 +1,5 @@
 name: Epic
 description: Track a larger initiative made of several issues
-title: "[Epic]: "
 type: Epic
 body:
   - type: textarea

@@ -1,6 +1,5 @@
 name: Feature Request
 description: Propose a new feature
-title: "[Feature]: "
 type: Feature
 body:
   - type: textarea
