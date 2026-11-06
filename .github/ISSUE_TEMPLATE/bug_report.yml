@@ -3,15 +3,10 @@ description: Report a bug in the app
 type: Bug
 body:
   - type: textarea
-    id: summary
+    id: what-happens
     attributes:
-      label: Summary
-      description: What goes wrong, and what should happen instead? Screenshots help.
-  - type: textarea
-    id: reproduction-steps
-    attributes:
-      label: Reproduction Steps
-      description: Step by step, how do you trigger this?
+      label: What happens
+      description: How you get there, what happens, and what should happen instead. Screenshots help.
   - type: textarea
     id: environment
     attributes:
